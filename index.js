@@ -30,13 +30,13 @@ const Twitter = require('./modules/twitter');
 
  ******************* */
 const me = {
-    id: 2714960622,
+    id: 201248377,
     screen_name: 'senseifavour'
 };
 
 const botsofcode = {
-    id: 743145993844179000,
-    screen_name: 'botsofcode'
+    id: 201248377,
+    screen_name: 'senseifavour'
 };
 
 const emojis = ['👊', '👊', '🙌', '👍', '💁', '👌', '🙅', '👯'];
@@ -88,7 +88,7 @@ stream.on('tweet', (tweet) => {
 
     if ( tweet.retweeted_status ) return;
 
-	if ( tweet.text.toLowerCase().includes('@ireaderinokun') ) {
+	if ( tweet.text.toLowerCase().includes('@senseifavour') ) {
 		if ( shouldSendReply() ) {
             Twitter.reply(tweet, getTweet(tweet));
 		}
