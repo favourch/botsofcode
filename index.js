@@ -31,7 +31,7 @@ const Twitter = require('./modules/twitter');
  ******************* */
 const me = {
     id: 2714960622,
-    screen_name: 'ireaderinokun'
+    screen_name: 'senseifavour'
 };
 
 const botsofcode = {
